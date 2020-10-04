@@ -1,5 +1,5 @@
 # Bender
-Bend Geometries in Threejs. Works with both Geometries and BufferGeometries.
+Bend Geometries in Threejs. Works with geometries of base type THREE.Geometry and THREE.BufferGeometry.
 
 ## Usage
 ```typescript
@@ -34,3 +34,15 @@ or as ES6 import
 ```typescript
 import Bender from './bender.js'
 ```
+
+
+## Threejs TypeScript Course
+
+Visit https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate for a Threejs TypeScript boilerplate containing many extra branches that demonstrate many examples of Threejs.
+
+> To help support this Threejs example, please take a moment to look at my official Threejs TypeScript course at 
+
+[![Threejs TypeScript Course](docs/threejs-course-image.png)](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F)
+
+  [Three.js and TypeScript](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F)<br/>  
+  Discount Coupons for all my courses can be found at [https://sbcode.net/coupons](https://sbcode.net/coupons)
