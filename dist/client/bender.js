@@ -2,7 +2,6 @@
 //Copyright (c) 2020 Sean Bradley
 //https://github.com/Sean-Bradley/Bender/blob/main/LICENSE
 export default class Bender {
-    constructor() { }
     bend(geometry, axis, angle) {
         let theta = 0;
         if (angle !== 0) {
@@ -19,7 +18,7 @@ export default class Bender {
                         case "y":
                             theta = x * angle;
                             break;
-                        case "z":
+                        default: //z
                             theta = x * angle;
                             break;
                     }
@@ -38,7 +37,7 @@ export default class Bender {
                             v[i].y = y;
                             v[i].z = (z - 1.0 / angle) * cosTheta + 1.0 / angle;
                             break;
-                        case "z":
+                        default: //z
                             //bending around the Z axis
                             v[i].x = -(y - 1.0 / angle) * sinTheta;
                             v[i].y = (y - 1.0 / angle) * cosTheta + 1.0 / angle;
@@ -61,7 +60,7 @@ export default class Bender {
                         case "y":
                             theta = x * angle;
                             break;
-                        case "z":
+                        default: //z
                             theta = x * angle;
                             break;
                     }
@@ -80,7 +79,7 @@ export default class Bender {
                             v[i + 1] = y;
                             v[i + 2] = (z - 1.0 / angle) * cosTheta + 1.0 / angle;
                             break;
-                        case "z":
+                        default: //z
                             //bending around the Z axis
                             v[i] = -(y - 1.0 / angle) * sinTheta;
                             v[i + 1] = (y - 1.0 / angle) * cosTheta + 1.0 / angle;
