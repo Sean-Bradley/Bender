@@ -34,7 +34,9 @@ or as ES6 import
 ```typescript
 import Bender from './bender.js'
 ```
+## See Working Example
 
+https://codesandbox.io/s/github/Sean-Bradley/Bender/tree/master/
 
 ## Threejs TypeScript Course
 
