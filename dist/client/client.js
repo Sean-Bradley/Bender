@@ -44,10 +44,10 @@ gui.open();
 function regenerateGeometry() {
     let newGeometry;
     if (data.model === "Cube") {
-        newGeometry = new THREE.BoxGeometry(5, 5, 5, 10, 10, 10);
+        newGeometry = new THREE.BoxBufferGeometry(5, 5, 5, 10, 10, 10);
     }
     else {
-        newGeometry = new THREE.TextGeometry(data.text, {
+        newGeometry = new THREE.TextBufferGeometry(data.text, {
             font: font,
             size: 1,
             height: .2,
