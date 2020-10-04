@@ -1,3 +1,6 @@
+//MIT License
+//Copyright (c) 2020 Sean Bradley
+//https://github.com/Sean-Bradley/Bender/blob/main/LICENSE
 export default class Bender {
     constructor() { }
     bend(geometry, axis, angle) {

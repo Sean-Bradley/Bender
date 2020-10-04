@@ -18,10 +18,10 @@ const data = {
     model: modelOptions[0],
     axis: axisOptions[1],
     angle: Math.PI / 16,
-    text: "seanwasere ThreeJS"
+    text: "seanwasere Threejs"
 };
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
-const mesh = new THREE.Mesh(new THREE.Geometry(), material);
+const mesh = new THREE.Mesh(new THREE.BufferGeometry(), material);
 scene.add(mesh);
 let font;
 const loader = new THREE.FontLoader();
