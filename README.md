@@ -1,7 +1,7 @@
 # Bender
 Bend Geometries in Threejs. Works with geometries of base type THREE.Geometry and THREE.BufferGeometry.
 
-Example : https://codesandbox.io/s/github/Sean-Bradley/Bender/tree/master/
+Example : https://codesandbox.io/s/github/Sean-Bradley/Bender
 
 ## Usage
 ```typescript
