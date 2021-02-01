@@ -1,7 +1,8 @@
 {
   "name": "bender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bend Geometries in Threejs",
+  "main": "./dist/client/bender.js",
   "scripts": {
     "dev": "concurrently -k \"tsc -p ./src/server -w\" \"tsc -p ./src/client -w\" \"nodemon ./dist/server/server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,7 +33,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "three": "^0.121.1",
+    "three": "^0.125.2",
     "typescript": "^4.0.3"
   }
 }

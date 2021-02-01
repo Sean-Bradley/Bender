@@ -1,4 +1,5 @@
 # Bender
+
 Bend Geometries in Threejs. Works with geometries of base type THREE.Geometry and THREE.BufferGeometry.
 
 Example 1 : https://sbcode.net/threejs/bender/
@@ -7,7 +8,7 @@ Example 2 : https://sbcode.net/threejs/engraving/
 
 ## Usage
 ```typescript
-bend(geometry: THREE.Geometry | THREE.BufferGeometry, axis: string, angle: number)
+bend(geometry: THREE.BufferGeometry, axis: string, angle: number)
 ```
 
 ![Bending a cube](docs/cube.jpg)
@@ -21,7 +22,7 @@ npm install
 npm run dev
 ```
 
-This is a typescript project consisting of two sub projects with there own tsconfigs.
+This is a typescript project consisting of two sub projects with there own *tsconfigs*.
 
 To edit this example, then modify the files in `./src/client/` or `./src/server/`. The projects will auto recompile if you started by using `npm run dev`
 
