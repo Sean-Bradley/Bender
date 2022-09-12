@@ -7,6 +7,7 @@ Example 1 : https://sbcode.net/threejs/bender/
 Example 2 : https://sbcode.net/threejs/engraving/
 
 ## Usage
+
 ```typescript
 bend(geometry: THREE.BufferGeometry, axis: string, angle: number)
 ```
@@ -26,15 +27,21 @@ This is a typescript project consisting of two sub projects with there own *tsco
 
 To edit this example, then modify the files in `./src/client/` or `./src/server/`. The projects will auto recompile if you started by using `npm run dev`
 
-or
+## Importing
 
-You can simply just import the generated `./dist/client/bender.js` directly into your project as a module.
+You can import via CDN
+
+```typescript
+import Bender from 'https://cdn.jsdelivr.net/gh/Sean-Bradley/Bender@main/dist/client/bender.js'
+```
+
+Or, you can import the generated `./dist/client/bender.js` directly into your project as a module.
 
 ```html
 <script type="module" src="./bender.js"></script>
 ```
 
-or as ES6 import
+Or, you can use an ES6 import if it is placed within the source folder of your project.
 
 ```typescript
 import Bender from './bender.js'
