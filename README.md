@@ -38,13 +38,13 @@ import Bender from 'https://cdn.jsdelivr.net/gh/Sean-Bradley/Bender@main/dist/cl
 Or, you can import the generated `./dist/client/bender.js` directly into your project as a module.
 
 ```html
-<script type="module" src="./bender.js"></script>
+<script type="module" src="./path/to/bender.js"></script>
 ```
 
 Or, you can use an ES6 import if it is placed within the source folder of your project.
 
 ```typescript
-import Bender from './bender.js'
+import Bender from './path/to/bender.js'
 ```
 
 View on CodeSandbox.io : https://codesandbox.io/s/github/Sean-Bradley/Bender
