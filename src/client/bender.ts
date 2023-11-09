@@ -1,5 +1,5 @@
 //MIT License
-//Copyright (c) 2020-2021 Sean Bradley
+//Copyright (c) 2020-2023 Sean Bradley
 //https://github.com/Sean-Bradley/Bender/blob/main/LICENSE
 
 export default class Bender {
@@ -8,7 +8,7 @@ export default class Bender {
         let theta = 0
         if (angle !== 0) {
 
-            const v = (geometry as THREE.BufferGeometry).attributes.position.array as number[]
+            const v = geometry.attributes.position.array
             for (let i = 0; i < v.length; i += 3) {
 
                 let x = v[i]

@@ -23,9 +23,11 @@ npm install
 npm run dev
 ```
 
-This is a typescript project consisting of two sub projects with there own *tsconfigs*.
+This is a typescript project consisting of two subprojects with their own *tsconfigs*.
 
 To edit this example, then modify the files in `./src/client/` or `./src/server/`. The projects will auto recompile if you started by using `npm run dev`
+
+Visit http://127.0.0.1:8080
 
 ## Importing
 
