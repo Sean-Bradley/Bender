@@ -49,7 +49,7 @@ Or, you can use an ES6 import if it is placed within the source folder of your p
 import Bender from './path/to/bender.js'
 ```
 
-View on CodeSandbox.io : https://codesandbox.io/s/github/Sean-Bradley/Bender
+View on SBEDIT : https://sbedit.net/17fe262c1243efd58860343f8ae87712318706fe 
 
 ## Threejs TypeScript Course
 
